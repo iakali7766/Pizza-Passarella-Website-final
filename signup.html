@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Sign Up | Pizaa Passarella</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery-3.5.1.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!--Font Awesome Verson 4.7.0 cdn link--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+
+<!--Font Awesome Verson 5.15.1 cdn link-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+<!--My Style sheet style.css-->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+
+<!--<a href="cart.html">
+<div class="cart-counter-bg-image">
+    <div class="shopping-cart">
+	    <i class="fas fa-shopping-cart fa-2x"></i>
+		<h5>4</h5>
+	</div>
+</div>
+</a>-->
+
+ <!--=====MOBILE NAVIGATION BAR AND HIDE ON ABOVE sm SCREEN========-->    
+	<section class="section1">
+	    <nav class="navbar navbar-expand-md bg-dark navbar-dark d-block d-sm-none">
+		    <div class="container">
+			    <a href="#" class="navbar-brand"><img src="images/logo-2.png" alt="logo"></a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+				
+				    <ul class="navbar-nav ml-auto">
+					    <li class="nav-item ">
+						   <a href="index.html" class="nav-link text-white"><i class="fas fa-pizza-slice pr-2"></i>HOME</a> 
+					    </li>
+						
+						<li class="nav-item">
+						   <a href="aboutus.html" class="nav-link text-white"><i class="fas fa-pizza-slice pr-2"></i>ABOUT US</a> 
+					    </li>
+						
+						<li class="nav-item">
+						   <a href="menu.html" class="nav-link text-white"><i class="fas fa-pizza-slice pr-2"></i>MENU</a>
+					    </li>
+						
+						<li class="nav-item">
+						   <a href="contactus.html" class="nav-link text-white"><i class="fas fa-pizza-slice pr-2"></i>CONTACT US</a> 
+					    </li>
+						
+						<!--<li class="nav-item">
+						   <a href="#" class="nav-link text-white"><i class="fas fa-pizza-slice"></i>SERVICES</a> 
+					    </li>-->
+					</ul>
+					<button class="btn btn-outline-warning btn-sm text-white m-auto" id=""><a href="login.html">Login</a></button>
+				</div>		
+			</div>
+        </nav>
+	
+	
+    <!--===DESKTOP NAVIGATION BAR AND HIDE ON sm SCREEN============-->	
+		<div class="destop-nav-bar d-none d-sm-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<ul>
+							<!--=======FONTAWESOME VERSON 5.15.1 USED HERE======-->
+							<li class="text-center"><a href="index.html"><i class="fas fa-pizza-slice"></i><br>Home</a></li> 
+							<li class="text-center"><a href="aboutus.html"><i class="fas fa-pizza-slice"></i><br>About Us</a></li>
+							<li class="text-center"><a href="menu.html"><i class="fas fa-pizza-slice"></i><br>Menu</a></li>
+							<li class="text-center"><a href="contactus.html"><i class="fas fa-pizza-slice"></i><br>Contact Us</a></li>
+						</ul>
+					</div>
+					 
+					<div class="col-md-2 destop-logo text-center">
+						<img src="images/logo-2.png" alt="" width="100%">
+					</div>
+					
+					<div class="col-md-2 order-now text-right">
+						<h4>Order Now</h4>
+						<p>9572 421 957</p>
+					</div>
+					
+					<div class="col-md-3 destop-login-register text-right">
+						<span><a href="login.html">Login</a></span>
+						<span class="separator ml-2"></span>
+						<span><a href="#">Register</a></span>
+					</div>
+				</div>
+			</div>
+		</div>	
+    </section>
+
+
+	<section class="section2">
+		<div class="background2" style="background-image:url(images/LoginBlurBg.jpg); background-repeat:no-repeat;" width="100%;">
+			<div class="container section-padding-top-bottom">
+				<div class="row">
+					<div class="col-md-8 col-sm-8 col-8 m-auto">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-12">
+								<form>
+									<h2 class="text-white text-center marginTop pb-5">Signup</h2>
+									<span></span>
+									<div class="input-container">
+										<i class="fa fa-user icon"></i>
+										<input type="text" class="input-field" placeholder="Full Name">
+									</div>
+									
+									<div class="input-container">
+										<i class="fas fa-mobile icon"></i>
+										<input type="text" class="input-field" placeholder="Your Mobile No">
+									</div>
+									
+									<div class="input-container">
+										<i class="fas fa-envelope icon"></i>
+										<input type="text" class="input-field" placeholder="Your E-mail">
+									</div>
+									
+									<div class="input-container">
+										<i class="fas fa-map-marker-alt icon"></i>
+										<input type="text" class="input-field" placeholder="Your Full Address">
+									</div>
+
+								  
+									<div class="input-container">
+										<i class="fa fa-key icon icon"></i>
+										<input type="password" class="input-field" placeholder="Password">
+									</div>
+									
+									
+									<div class="input-container">
+										<i class="fa fa-key icon"></i>
+										<input type="password" class="input-field" placeholder="Re-Enter Password">
+									</div>
+									
+                                    <div class="row"> 
+									    <div class="col-md-12 col-sm-12 col-12 text-center">
+											<button type="submit" class="btn btn-styling btn-lg">Sign Up</button>
+										</div>
+									</div>
+									 
+									<div class="row">
+										<div class="col-md-12 col-sm-12 col-12 text-white text-left link-settings pt-5">
+											<span class="lead">Already Have An Account?<a href="login.html" class="ml-3 lead">Login</a></span>
+											
+										</div>
+									</div>
+									
+								</form>
+							</div>    
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+
+
+<!--=====FOOTER 1 CODE =====-->	
+<section class="section7">
+    <div class="background7 section-background-repeat" style="background-image: url('images/pettren-2.jpg');">
+	    <div class="container section-padding-top-bottom">
+		    <div class="row">
+			    <div class="col-md-4">
+				    <div class="bottom-logo">
+					    <img src="images/logo.png" alt="" style="height:100px", width="150px">
+					</div>	
+						<!--<p><i class="fas fa-user pr-2"></i></p>-->
+						<p><i class="fas fa-mobile pr-2"></i>9572421957 | 7209774889</p>
+						<!--<p><i class="fas fa-mobile pr-2"></i></p>-->
+						<p><i class="fas fa-envelope pr-2"></i>pizzapassarella@gmail.com</p>
+						<p><i class="fas fa-map-marker-alt pr-2"></i>Purulia Rd, Pardih Basti,<br>Iqra Colony, Mango, Jamshedpur,<br> Jharkhand 832110</p>
+					
+				</div>
+				
+				<div class="col-md-4 footer-links-style">
+				    <h4>Useful Links</h4>
+					<p><a href="index.html"><i class="fas fa-pizza-slice pr-2"></i>Home </a></p>
+					<p><a href="aboutus.html"><i class="fas fa-pizza-slice pr-2"></i>About Us  </a></p>
+					<p><a href="menu.html"><i class="fas fa-pizza-slice pr-2"></i>Menu      </a></p>
+					<p><a href="contactus.html"><i class="fas fa-pizza-slice pr-2"></i>Contact Us</a></p>
+					
+					<h4 class="pt-2">Follow Us</h4>
+					<span><a href="#"><i class="follow-us-icon-colors fab fa-facebook-square fa-2x mr-3"> </i></a></span>
+					<span><a href="#"><i class="follow-us-icon-colors fab fa-instagram fa-2x mr-3">       </i></a></span>
+					<span><a href="#"><i class="follow-us-icon-colors fab fa-linkedin fa-2x mr-3">        </i></a></span>
+					<span><a href="#"><i class="follow-us-icon-colors fab fa-youtube-square fa-2x mr-3">  </i></a></span>
+					<span><a href="#"><i class="follow-us-icon-colors fab fa-twitter-square fa-2x mr-3">  </i></a></span>
+				</div>
+				
+				<div class="col-md-4">
+				    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235361.7199406973!2d86.03612119504393!3d22.819988756462383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56bc786b3a2013f!2sPizza%20passarella!5e0!3m2!1sen!2sin!4v1613133670153!5m2!1sen!2sin" width="100%" height="270px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="pr-5"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--========FOOTER 2 CODE===========-->	
+	<div class="mini-footer">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-md-12">
+				    <div class="copyright-text">
+					    <p class="text-white text-center pt-3">All Rights Reserved Pizza Passarella &copy; Website designed by<a href="https://xwaydesigns.com/" target="_blank"><span class="text-warning"> X-Way Designs</span></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</html>
